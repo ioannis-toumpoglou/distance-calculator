@@ -3,7 +3,7 @@ import math
 p1 = float(input('First point latitude: '))
 m1 = float(input('First point longitude: '))
 p2 = float(input('Second point latitude: '))
-m2 = float(input('First point longitude: '))
+m2 = float(input('Second point longitude: '))
 
 p1 = math.radians(p1)
 p2 = math.radians(p2)
