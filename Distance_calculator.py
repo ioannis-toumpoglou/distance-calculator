@@ -17,4 +17,4 @@ a = (math.sin(dp/2))**2+math.cos(p1)*math.cos(p2)*(math.sin(dm/2))**2
 c = 2*math.asin(math.sqrt(a))
 d = R*c
 
-print('The distance between the two points is: ',d)
+print('The distance between the two points is: ','{0:2.2f}'.format(d),'Km')
